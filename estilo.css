@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css?family=DM+Sans&display=swap');
+
+body {
+    font-family: 'DM Sans', sans-serif;
+    max-width: 1000px;
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+}
+
+#datos {
+    float: left;
+    max-width: 290px;
+    padding-right: 10px;
+}
+
+#descripcion, #contenido {
+    max-width: 700px;
+    float: right;
+}
+
+/* Letra capital */
+#descripcion>p:first-letter, #contenido>ul>li:first-letter {
+    font-size: 50px;
+    font-weight: bold;
+    float: left;
+    border: 1px solid gray;
+    padding: 5px 10px;
+    margin-right: 5px;
+}
+
+.listaGutenberg {
+    list-style: none;
+    padding: 0;
+
+    display: flex;
+}
+
+.listaGutenberg>li {
+    flex: 1;
+    padding: 5px;
+}
